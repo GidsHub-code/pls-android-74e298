@@ -309,9 +309,6 @@ public class MainActivity extends AppCompatActivity {
         } catch (Throwable ignored) {}
     }
 
-
-    }
-
     private void requestRuntimePermissions() {
         java.util.ArrayList<String> needed = new java.util.ArrayList<>();
         String[] candidates;
