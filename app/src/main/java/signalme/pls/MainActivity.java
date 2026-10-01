@@ -266,6 +266,7 @@ public class MainActivity extends AppCompatActivity {
             channel.setLockscreenVisibility(android.app.Notification.VISIBILITY_PUBLIC);
             NotificationManager nm = getSystemService(NotificationManager.class);
             if (nm != null) nm.createNotificationChannel(channel);
+        }
     }
 
     private void createDownloadNotificationChannel() {
